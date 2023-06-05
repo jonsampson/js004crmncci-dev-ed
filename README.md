@@ -23,3 +23,6 @@
 11) Set a password for the scratch org user `sfdx force:user:password:generate --targetusername xx@example.com`
 12) Go back to DevOps Center and chose this as the intregration environment.
 13) Go to 9 until the rest of the envs are populated
+  - a developer edition can only have 3 scratch orgs
+14) Activate the Pipeline
+15) Create a Work Item
