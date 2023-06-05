@@ -17,3 +17,9 @@
 5) Find the App DevOps Center in the app launcher menu
 6) Create New Project and enter the Github authorization wizard. I allowed access to my personal account. We will probably have an Org set up to own this project.
 7) Create New Project again and start actually configuring it. You select your production org as the destination and connect the pipeline up frome existing sandboxes (maybe scratch orgs?)
+8) Create org shape of developer edition `sfdx force:org:shape:create -u js004@js004crmncci.sandbox.dev`
+9) Create dev environment scratch org - `sfdx force:org:create -f config/devcenter-enabled-scratch-def --durationdays 30`
+10) Open scratch org `sfdx force:org:open -u xx@example.com`
+11) Set a password for the scratch org user `sfdx force:user:password:generate --targetusername xx@example.com`
+12) Go back to DevOps Center and chose this as the intregration environment.
+13) Go to 9 until the rest of the envs are populated
