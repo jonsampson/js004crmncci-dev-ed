@@ -15,3 +15,4 @@
 4) Set up own user to have permssion sets
   - assigned Dev Ops Center, DevOps Center Manager, DevOps Center Release Manager, sf_devops_InitializeEnvironments, sf_devops_NamedCredentials
 5) Find the App DevOps Center in the app launcher menu
+6) Create New Project and enter the Github authorization wizard. I allowed access to my personal account. We will probably have an Org set up to own this project.
