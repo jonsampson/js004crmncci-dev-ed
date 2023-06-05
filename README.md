@@ -16,3 +16,4 @@
   - assigned Dev Ops Center, DevOps Center Manager, DevOps Center Release Manager, sf_devops_InitializeEnvironments, sf_devops_NamedCredentials
 5) Find the App DevOps Center in the app launcher menu
 6) Create New Project and enter the Github authorization wizard. I allowed access to my personal account. We will probably have an Org set up to own this project.
+7) Create New Project again and start actually configuring it. You select your production org as the destination and connect the pipeline up frome existing sandboxes (maybe scratch orgs?)
